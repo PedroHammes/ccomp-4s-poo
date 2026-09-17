@@ -1,0 +1,7 @@
+função: tem retorno
+procedimento: não tem retorno
+
+(String[] args) -> explicita o tipo de valor esperado; tal como: (int idade);
+String[] é um vetor e args é seu nome;
+args[0] = "palavra"
+args[1] = "palavra2"
