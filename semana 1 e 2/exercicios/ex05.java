@@ -10,9 +10,8 @@ public class ex05 {
         int day;
 
         System.out.print("Informe um número da semana: ");
-        day = sc.nextInt();
 
-        switch (day) {
+        switch (sc.nextInt()) {
             case 1: System.out.println("Domingo");
                 break;
             case 2: System.out.println("Segunda-feira");
