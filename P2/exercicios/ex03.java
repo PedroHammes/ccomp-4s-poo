@@ -19,6 +19,7 @@ public class ex03 {
         b = sc.nextFloat();
         System.out.print("Informe a 3° nota: ");
         c = sc.nextFloat();
+        sc.close();
         media = (a+b+c)/3;
 
         System.out.printf("A média é: %.2f\n", media);

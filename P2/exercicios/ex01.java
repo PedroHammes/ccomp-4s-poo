@@ -20,6 +20,6 @@ public class ex01 {
         float area = pi * (raio*raio);         
 
         System.out.printf("Area = %.2f", area);
-        
+        sc.close();
     }
 }
