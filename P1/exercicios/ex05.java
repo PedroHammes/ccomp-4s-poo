@@ -6,12 +6,14 @@ import java.util.Scanner;
 
 public class ex05 {
     public static void main(String[] args) {
+        
         Scanner sc = new Scanner(System.in);
-        int day;
 
         System.out.print("Informe um número da semana: ");
+        int day = sc.nextInt();
+        sc.close();
 
-        switch (sc.nextInt()) {
+        switch (day) {
             case 1: System.out.println("Domingo");
                 break;
             case 2: System.out.println("Segunda-feira");

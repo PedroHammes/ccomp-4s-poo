@@ -16,6 +16,8 @@ public class ex04 {
         System.out.print("Informe o valor de y: ");
         y = sc.nextFloat();
 
+        sc.close();
+
         if (x > y) { System.out.printf("O maior número informado é %.3f", x); }
         else if (y > x) { System.out.printf("O maior número informado é %.3f", y); }
         else { System.out.println("Os números informados são iguais."); }

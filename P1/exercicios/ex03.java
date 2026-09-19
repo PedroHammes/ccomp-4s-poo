@@ -14,6 +14,8 @@ public class ex03 {
         System.out.print("Informe o valor de y: ");
         y = sc.nextDouble();
 
+        sc.close();
+
         System.out.printf("%.2f + %.2f = %.2f", x, y, x+y);
     }
 }
