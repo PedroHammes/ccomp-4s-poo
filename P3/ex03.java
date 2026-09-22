@@ -16,10 +16,9 @@ public class ex03 {
         String word = sc.next(); // para armazenar palavras
         // porque next para no primeiro espaço em branco
         // se quiser armazenar frases use nextLine() porque ele guarda a linha toda e só para no enter/quebra de linha
+        sc.close();
         
         int last_index = word.length()-1;
-
-        System.out.println(word);
 
         for (int i=0; i<=last_index; i++)
         {
